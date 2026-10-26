@@ -8,7 +8,7 @@ import { parseArgs } from './lib.mjs';
 const args = parseArgs(process.argv.slice(2));
 const file = args._[0];
 const key = process.env.OPENROUTER_API_KEY;
-const model = args.model || process.env.OPENROUTER_VIDEO_MODEL || 'google/gemini-3.7-flash';
+const model = args.model || process.env.OPENROUTER_VIDEO_MODEL || 'google/gemini-3.5-flash-lite';
 
 if (!file) {
   console.error('Uso: node review-video.mjs <video> [--context "..."] [--model id]');

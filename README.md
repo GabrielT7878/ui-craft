@@ -78,7 +78,9 @@ Para a revisão de vídeo, configure uma chave da [OpenRouter](https://openroute
 
 ```bash
 export OPENROUTER_API_KEY="sk-or-..."
-export OPENROUTER_VIDEO_MODEL="google/gemini-3.7-flash"   # confira o nome exato na OpenRouter
+# Opcional. Padrão: google/gemini-3.5-flash-lite (rápido e barato).
+# Para revisões mais detalhadas: google/gemini-3.7-flash ou google/gemini-3.8-flash
+export OPENROUTER_VIDEO_MODEL="google/gemini-3.5-flash-lite"
 ```
 
 Sem a chave, o resto da skill funciona normalmente. O Claude apenas avisa que não verificou as animações por vídeo.
