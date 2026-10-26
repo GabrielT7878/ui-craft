@@ -53,7 +53,7 @@ ui-craft/
 Requer Node.js 18 ou mais recente.
 
 ```bash
-git clone <url-deste-repo>
+git clone https://github.com/GabrielT7878/ui-craft.git
 # Para todos os projetos:
 cp -r ui-craft ~/.claude/skills/ui-craft
 # Ou só para um projeto:
